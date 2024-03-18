@@ -1,4 +1,7 @@
 # FOR THE AGENCY
+# Have the number of available cars
+SELECT COUNT(*) AS Number_of_cars FROM car WHERE car_status LIKE 'Available';
+
 #  Have the information about the available cars 
 SELECT * FROM car WHERE car_status LIKE 'Available';
 
